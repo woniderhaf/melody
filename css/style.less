@@ -1,0 +1,59 @@
+@font: 'Roboto';
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: @font;
+}
+.header {
+    background: #635854;
+    padding: 12px 0;
+    border-bottom: 4px solid #3596F5;
+}
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &-menu {
+        padding: 0;
+        margin: 0;
+        list-style: none; //отключаем точки из списка
+        display: flex;
+        text-align: center;
+    
+    }
+    &-item {
+        margin: 0 40px;
+    }
+    &-link {
+        text-decoration: none;
+        color: white;
+    }
+    &-contacts {
+        text-align: right;
+    }
+}
+.logo {
+    margin: 0;
+    padding: 0;
+}
+.navbar-text {
+    display: block;
+    color: #fff;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.navbar-phone {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
